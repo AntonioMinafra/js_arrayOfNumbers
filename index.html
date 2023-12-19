@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        .split vuol dire da stringa ad array.
+        .join vuol dire da array a stringa
+        .push aggiunge elemento
+        .pop togli l ultimo elemento
+        .unshift aggiunge e lo mette all inizio
+        .shift toglie la prima
+    -->
+    <script>
+        let citta = 'Milano,Torino,Roma,Venezia,Napoli';
+        let data = citta.split(',');
+        data.shift()
+
+        console.log(data);
+
+        /*for(i=0; i<data.length; i++){
+            console.log(data[i]);
+        }*/
+        //console.log(data[data.length -1]);
+
+
+    </script>
+</body>
+</html>
